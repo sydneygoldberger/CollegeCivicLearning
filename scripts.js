@@ -26,21 +26,21 @@ var advisorsMobile = document.getElementById('advisors-mobile');
 
 // SUB MENU
 
-// if ( document.URL.includes("https://collegeciviclearning.org/") ) {
-//     function showSubMenu() {
-// 		bottombar.style.visibility = "inherit";
-// 	}
+if ( window.location.href=="https://collegeciviclearning.org/") {
+    function showSubMenu() {
+		bottombar.style.visibility = "inherit";
+	}
 
-// 	function hideSubMenu() {
-// 		bottombar.style.visibility = "hidden";
-// 	}
+	function hideSubMenu() {
+		bottombar.style.visibility = "hidden";
+	}
 	
-// 	homeMobile.style.color = "#c63c3c";
-// 	homeMobile.style.borderBottom = "solid 4px #c63c3c";
+	homeMobile.style.color = "#c63c3c";
+	homeMobile.style.borderBottom = "solid 4px #c63c3c";
 
-// 	aboutButton.onmouseenter = showSubMenu;
-// 	bottombar.onmouseleave = hideSubMenu;
-// };
+	aboutButton.onmouseenter = showSubMenu;
+	bottombar.onmouseleave = hideSubMenu;
+};
 
 if ( document.URL.includes("about") ) {
     bottombar.style.visibility = "inherit";	
