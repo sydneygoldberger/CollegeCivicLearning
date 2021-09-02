@@ -132,10 +132,6 @@ window.addEventListener('load', function(e) {
 	
 	setTimeout(function(){
 		burger.dispatchEvent(clickEvent);
-		
-		setTimeout(function(){
-			slowmo.dispatchEvent(clickEvent);
-		}, 3500);
 	}, 5500);
 });
 
