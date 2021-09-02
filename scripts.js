@@ -42,7 +42,7 @@ if ( document.URL.includes("https://collegeciviclearning.org/") ) {
 	bottombar.onmouseleave = hideSubMenu;
 };
 
-if ( document.URL.includes("about") ) {
+if ( document.URL.includes("https://collegeciviclearning.org/about") ) {
     bottombar.style.visibility = "inherit";	
 	
 	aboutButton.style.color = "#5b8cbd";
@@ -53,7 +53,7 @@ if ( document.URL.includes("about") ) {
 	bottombar.onmouseleave = hideSubMenu;	
 };
 
-if ( document.URL.includes("sharedcommitments") ) {
+if ( document.URL.includes("https://collegeciviclearning.org/sharedcommitments") ) {
 	bottombar.style.visibility = "inherit";	
 	
 	aboutButton.style.color = "#5b8cbd";
@@ -64,7 +64,7 @@ if ( document.URL.includes("sharedcommitments") ) {
 	sharedcommitmentsMobile.style.color = "#5b8cbd";
 };
 
-if ( document.URL.includes("goals&vision") ) {
+if ( document.URL.includes("https://collegeciviclearning.org/goals&vision") ) {
 	bottombar.style.visibility = "inherit";	
 	
 	aboutButton.style.color = "#5b8cbd";
@@ -75,7 +75,7 @@ if ( document.URL.includes("goals&vision") ) {
 	goalsvisionMobile.style.color = "#5b8cbd";
 };
 
-if ( document.URL.includes("leadership") ) {
+if ( document.URL.includes("https://collegeciviclearning.org/leadership") ) {
 	bottombar.style.visibility = "inherit";	
 	
 	aboutButton.style.color = "#5b8cbd";
@@ -86,7 +86,7 @@ if ( document.URL.includes("leadership") ) {
 	leadershipMobile.style.color = "#5b8cbd";
 };
 
-if ( document.URL.includes("advisors") ) {
+if ( document.URL.includes("https://collegeciviclearning.org/advisors") ) {
 	bottombar.style.visibility = "inherit";	
 	
 	aboutButton.style.color = "#5b8cbd";
@@ -97,7 +97,7 @@ if ( document.URL.includes("advisors") ) {
 	advisorsMobile.style.color = "#5b8cbd";
 };
 
-if ( document.URL.includes("ourpartners") ) {
+if ( document.URL.includes("https://collegeciviclearning.org/ourpartners") ) {
     function showSubMenu() {
 		bottombar.style.visibility = "inherit";
 	}
