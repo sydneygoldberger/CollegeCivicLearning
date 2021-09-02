@@ -23,10 +23,13 @@ var partnersMobile = document.getElementById('partners-mobile');
 var leadershipMobile = document.getElementById('leadership-mobile');
 var advisorsMobile = document.getElementById('advisors-mobile');
 
+var currentURL = document.URL;
+console.log(currentURL);
+
 
 // SUB MENU
 
-if (window.location.href=="https://collegeciviclearning.org") {
+if (currentURL=="https://collegeciviclearning.org") {
     function showSubMenu() {
 		bottombar.style.visibility = "inherit";
 	}
@@ -125,7 +128,6 @@ burger.addEventListener('click', function(e){
 let clickEvent = new Event('click');
 
 window.addEventListener('load', function(e) {
-	slowmo.dispatchEvent(clickEvent);
 	burger.dispatchEvent(clickEvent);
 	
 	setTimeout(function(){
