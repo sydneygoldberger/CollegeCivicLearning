@@ -26,7 +26,7 @@ var advisorsMobile = document.getElementById('advisors-mobile');
 
 // SUB MENU
 
-if ( document.URL.includes("index") ) {
+if ( document.URL.includes("https://collegeciviclearning.org/") ) {
     function showSubMenu() {
 		bottombar.style.visibility = "inherit";
 	}
