@@ -448,6 +448,11 @@ a:hover {
   font-weight: 400;
 }
 
+#highlighted-text-shared {
+  font-weight: 500;
+  font-size: calc(12px + 1.1vw);
+}
+
 #title {
   visibility: hidden;
 }
