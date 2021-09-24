@@ -34,7 +34,7 @@ var macroInitiativesMobile = document.getElementById('macroInitiatives-mobile');
 
 // SUB MENU
 
-if ( document.location = 'https://collegeciviclearning.org' ) {
+if ( document.URL.includes("index") )  {
     function showSubMenu() {
 		bottombar.style.visibility = "inherit";
 	}
