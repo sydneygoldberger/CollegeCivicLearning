@@ -1751,8 +1751,8 @@ textarea {
   }
 
   #burgerContainer {
-    height: 4vw;
-    top: 22px;
+    height: 3vh;
+    top: 25px;
     display: flex;
     right: 4vw;
     justify-content: center;
