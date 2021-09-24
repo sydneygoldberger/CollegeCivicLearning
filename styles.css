@@ -806,6 +806,11 @@ textarea {
     transform: translateY(0);
   }
 
+  a {
+    position: relative;
+    z-index: 2;
+  }
+
   .main-nav ul,
   .main-nav li {
     list-style: none;
@@ -1010,7 +1015,7 @@ textarea {
     width: 100vw;
     position: relative;
     display: block;
-    z-index: -1;
+    z-index: 0;
     padding-bottom: 6vw;
     padding-top: 20vw;
     overflow-y: hidden;
@@ -1020,7 +1025,7 @@ textarea {
     width: 100vw;
     position: relative;
     display: block;
-    z-index: -1;
+    z-index: 0;
     padding-bottom: 6vw;
     padding-top: 20vw;
     overflow-y: hidden;
@@ -1445,7 +1450,7 @@ textarea {
     width: 100vw;
     position: relative;
     display: block;
-    z-index: -1;
+    z-index: 0;
     padding-bottom: 6vw;
     padding-top: 20vw;
     overflow-y: hidden;
@@ -1455,7 +1460,7 @@ textarea {
     width: 100vw;
     position: relative;
     display: block;
-    z-index: -1;
+    z-index: 0;
     padding-bottom: 6vw;
     padding-top: 20vw;
     overflow-y: hidden;
@@ -1881,7 +1886,7 @@ textarea {
     width: 100vw;
     position: relative;
     display: block;
-    z-index: -1;
+    z-index: 0;
     padding-bottom: 6vw;
     padding-top: 30vw;
     overflow-y: hidden;
@@ -1896,7 +1901,7 @@ textarea {
     width: 100vw;
     position: relative;
     display: block;
-    z-index: -1;
+    z-index: 0;
     padding-bottom: 6vw;
     padding-top: 30vw;
     overflow-y: hidden;
