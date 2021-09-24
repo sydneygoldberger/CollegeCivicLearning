@@ -1752,7 +1752,7 @@ textarea {
 
   #burgerContainer {
     height: 3vh;
-    top: 25px;
+    top: 20px;
     display: flex;
     right: 4vw;
     justify-content: center;
