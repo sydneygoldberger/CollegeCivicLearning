@@ -298,26 +298,25 @@ a:hover {
   font-size: calc(12px + 0.6vw);
 }
 
-#textBox-main2 {
-  width: 40vw;
-  height: fit-content;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  position: relative;
-  z-index: 1;
-}
-
-#textBox-main2-header {
-  padding-left: 4vw;
+#textBodx-main2-header a {
   padding-top: 0px;
   position: relative;
   top: 15%;
   padding-bottom: 0px;
   height: fit-content;
-  font-size: calc(12px + 1.5vw);
+  font-size: calc(12px + 0.6vw);
+  color: #5b8cbd;
+}
+
+#homepageGoalsText {
+  color: black;
+  line-height: 1vw;
+
+  font-weight: 400;
 }
 #textBox-main2-header a {
   text-decoration: none;
+  color: #5b8cbd;
 }
 #textBox-main2-text {
   display: flex;
@@ -328,24 +327,30 @@ a:hover {
 #homePageGoals {
   width: 96vw;
   height: auto;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 1fr;
-  gap: 0px 0px;
-  grid-template-areas: ". .";
 }
 
-#homepageGoalsText {
-  position: relative;
-  color: black;
-  font-size: calc(12px + 0.5vw);
-  font-weight: 400;
-  padding: 1vw;
-  border-radius: 5px;
-  color: #faf9f6;
-  background-color: #5b8cbd;
+#bottomBorder2 {
+  display: block;
+  border-top: 3px solid #5b8cbd;
+  padding-bottom: 0vw;
+  animation: draw-line2 4s;
+  animation-fill-mode: forwards;
+  width: 38vw;
+}
+
+@keyframes draw-line2 {
+  0% {
+    width: 0;
+    border-left: 0px;
+  }
+
+  50% {
+    border-left: 0px;
+  }
+
+  100% {
+    width: 38vw;
+  }
 }
 
 #collegeGradPic {
@@ -991,6 +996,60 @@ textarea {
     color: black;
   }
 
+  #textBodx-main2-header a {
+    padding-top: 0px;
+    position: relative;
+    top: 15%;
+    padding-bottom: 0px;
+    height: fit-content;
+    font-size: calc(12px + 0.6vw);
+    color: #5b8cbd;
+  }
+
+  #homepageGoalsText {
+    color: black;
+    font-weight: 400;
+    line-height: 1.7vw;
+  }
+  #textBox-main2-header a {
+    text-decoration: none;
+    color: #5b8cbd;
+  }
+  #textBox-main2-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  #homePageGoals {
+    width: 96vw;
+    height: auto;
+  }
+
+  #bottomBorder2 {
+    display: block;
+    border-top: 3px solid #5b8cbd;
+    padding-bottom: 0vw;
+    animation: draw-line2 4s;
+    animation-fill-mode: forwards;
+    width: 90vw;
+  }
+
+  @keyframes draw-line2 {
+    0% {
+      width: 0;
+      border-left: 0px;
+    }
+
+    50% {
+      border-left: 0px;
+    }
+
+    100% {
+      width: 90vw;
+    }
+  }
+
   #collegeGradPic {
     padding-top: 3vw;
     padding-left: 0vw;
@@ -1081,65 +1140,6 @@ textarea {
     color: #faf9f6;
     border-radius: 0px 5px 5px 0px;
     top: 4vw;
-  }
-
-  #textBox-main2 {
-    width: 40vw;
-    height: fit-content;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    position: relative;
-    z-index: 1;
-    padding-left: 4vw;
-  }
-
-  #textBox-main2-header {
-    padding-top: 0px;
-    position: relative;
-    top: 28%;
-    font-size: calc(12px + 1.8vw);
-    width: 100%;
-    padding-left: 0px;
-  }
-
-  #textBox-main2-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    position: relative;
-    left: 5vw;
-  }
-
-  #homePageGoals {
-    width: 92vw;
-    height: auto;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    display: flex;
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 80%;
-    gap: 0px 0px;
-    grid-template-areas:
-      "."
-      ".";
-    padding-left: 0px;
-  }
-
-  #homepageGoalsText {
-    position: relative;
-    color: #faf9f6;
-    font-size: calc(12px+1vw);
-    font-weight: 400;
-    border: solid 2px #5b8cbd;
-    background: #5b8cbd;
-    padding: 1.3vw;
-    top: 3vw;
-    width: 35vw;
-    text-align: center;
-    border-radius: 5px;
   }
 
   #contactuspagedivision {
@@ -1396,6 +1396,15 @@ textarea {
     color: black;
     overflow-y: hidden;
   }
+  #textBox-main {
+    padding-left: 4vw;
+    padding-top: 12vw;
+    width: 90vw;
+    font-size: calc(12px + 1.3vw);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: black;
+  }
 
   #textBox2 {
     padding-left: 5vw;
@@ -1406,26 +1415,6 @@ textarea {
     font-weight: 300;
     color: black;
     overflow-y: hidden;
-  }
-
-  #textBox-main {
-    padding-left: 5vw;
-    padding-top: 7vw;
-    width: 90vw;
-    font-size: calc(12px + 1vw);
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: black;
-  }
-
-  #textBox-main2 {
-    padding-left: 5vw;
-    padding-top: 2vw;
-    width: 90vw;
-    font-size: calc(12px + 1vw);
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: black;
   }
 
   #collegeGradPic {
@@ -1517,62 +1506,6 @@ textarea {
     background-color: #5b8cbd;
     color: #faf9f6;
     border-radius: 0px 5px 5px 0px;
-  }
-
-  #textBox-main2 {
-    width: 40vw;
-    height: fit-content;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    position: relative;
-    z-index: 1;
-    padding-left: 4vw;
-    padding-bottom: 6vw;
-  }
-
-  #textBox-main2-header {
-    padding-top: 0px;
-    position: relative;
-    top: 28%;
-    font-size: calc(12px + 1.8vw);
-    width: 100%;
-    padding-left: 0px;
-  }
-
-  #textBox-main2-text {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    position: relative;
-    left: 5vw;
-  }
-
-  #homePageGoals {
-    width: 92vw;
-    height: auto;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    display: flex;
-    flex-direction: row;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 20% 80%;
-    gap: 0px 0px;
-    grid-template-areas:
-      "."
-      ".";
-    padding-left: 0px;
-  }
-
-  #homepageGoalsText {
-    position: relative;
-    font-size: calc(12px+1vw);
-    font-weight: 400;
-    padding: 1.3vw;
-    top: 3vw;
-    width: 35vw;
-    text-align: center;
   }
 
   .contactuscontainer {
