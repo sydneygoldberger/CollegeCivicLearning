@@ -27,7 +27,7 @@ body {
 }
 
 #topbar {
-  padding-left: 4vw;
+  padding-left: 3vw;
   padding-right: 4vw;
   padding-top: 2vw;
   padding-bottom: 2vw;
@@ -883,14 +883,14 @@ textarea {
   }
 
   #burgerContainer {
-    height: 5.5vw;
+    height: 15vw;
     display: flex;
     right: 4vw;
     justify-content: center;
     flex-direction: column;
     position: fixed;
     right: 4vw;
-    top: 45px;
+    top: 0px;
   }
 
   .is-open .burger-line1 {
@@ -1302,16 +1302,6 @@ textarea {
     border-bottom: 3px solid black;
     display: block;
     transition: all 0.275s;
-  }
-
-  #burgerContainer {
-    height: 20vw;
-    top: 4px;
-    display: flex;
-    right: 4vw;
-    justify-content: center;
-    flex-direction: column;
-    position: fixed;
   }
 
   .is-open .burger-line1 {
