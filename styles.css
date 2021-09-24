@@ -1612,6 +1612,10 @@ textarea {
     padding-left: 0vw;
   }
 
+  .content .link-boxes .box li a {
+    font-size: calc(12px);
+  }
+
   .burger:after,
   .burger:before {
     content: "";
