@@ -34,7 +34,6 @@ var macroInitiativesMobile = document.getElementById('macroInitiatives-mobile');
 
 // SUB MENU
 
-if ( document.URL.includes("index") )  {
     function showSubMenu() {
 		bottombar.style.visibility = "inherit";
 	}
@@ -61,7 +60,7 @@ if ( document.URL.includes("index") )  {
 		bottombar.style.visibility = "inherit";
 		bottombar.innerHTML = "<div class='subnav-content'><a href='sharedcommitment.html'>SHARED COMMITMENT STATEMENT</a><a href='leadership.html'>LEADERSHIP</a><a href='goals&priorities.html'>GOALS & PRIORITIES</a><a href='advisors.html'>ADVISORS</a></div>"
 	}
-};
+
 
 if ( document.URL.includes("about") ) {
     bottombar.style.visibility = "inherit";	
