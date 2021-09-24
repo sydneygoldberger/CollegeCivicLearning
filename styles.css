@@ -1609,6 +1609,7 @@ textarea {
     font-size: calc(12px + 2vw);
     position: relative;
     margin: 0 auto;
+    padding-left: 0vw;
   }
 
   .burger:after,
@@ -1622,7 +1623,7 @@ textarea {
 
   #descriptionHeader {
     font-size: calc(12px+ 0vw);
-    left: 1vw;
+    left: 0vw;
     position: relative;
   }
   #floatRight {
