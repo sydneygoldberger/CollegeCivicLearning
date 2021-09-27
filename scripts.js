@@ -42,12 +42,12 @@ var macroInitiativesMobile = document.getElementById('macroInitiatives-mobile');
 		bottombar.style.visibility = "hidden";
 	}
 	
-	homeMobile.style.color = "#c63c3c";
-	homeMobile.style.borderBottom = "solid 4px #c63c3c";
+	// homeMobile.style.color = "#c63c3c";
+	// homeMobile.style.borderBottom = "solid 4px #c63c3c";
 
-	aboutButton.onmouseenter = changeBottomTextBacktoAbout;
-	bottombar.onmouseleave = hideSubMenu;
-	takeActionbutton.onmouseenter = changeBottomTextTakeActionShow;
+	// aboutButton.onmouseenter = changeBottomTextBacktoAbout;
+	// bottombar.onmouseleave = hideSubMenu;
+	// takeActionbutton.onmouseenter = changeBottomTextTakeActionShow;
 		
 
 	function changeBottomTextTakeActionShow() {
@@ -66,13 +66,9 @@ if ( document.URL.includes("about") ) {
 	aboutButton.style.fontWeight = "400";
 	aboutMobile.style.color = "#c63c3c";
 	aboutMobile.style.borderBottom = "solid 4px #c63c3c";
-	bottombar.onmouseleave = showSubMenu;
-	bottombar.onmouseenter = showSubMenu;
 
 	takeActionbutton.onmouseenter = changeBottomTextTakeActionShow;
 	takeActionbutton.onmouseleave = changeBottomTextBacktoAbout;
-
-	bottombar.onmouseleave = hideSubMenu;	
 
 	function changeBottomTextTakeActionShow() {
 		bottombar.innerHTML = "<div class='subnav-content'><a href='cldebydesign.html'>CLDE BY DESIGN</a><a href='perspectives&issues.html'>PERSPECTIVES & ISSUES</a><a href='planning.html'>PLANNING</a><a href='campusprofiles.html'>CAMPUS PROFILES</a><a href='macroinitiatives.html'>MACRO INITIATIVES</a></div>"
@@ -83,13 +79,11 @@ if ( document.URL.includes("about") ) {
 };
 
 if ( document.URL.includes("takeaction") ) {
-    bottombar.style.display = "inherit";	
+    bottombar.style.visibility = "inherit";	
 	takeActionbutton.style.color = "#c63c3c";
 	takeActionbutton.style.fontWeight = "400";
 	takeActionMobile.style.color = "#c63c3c";
 	takeActionMobile.style.borderBottom = "solid 4px #c63c3c";
-	bottombar.onmouseleave = showSubMenu;
-	bottombar.onmouseenter = showSubMenu;
 
 	aboutButton.onmouseenter = changeBottomTextBacktoAbout;
 	aboutButton.onmouseleave = changeBottomTextTakeActionShow;
