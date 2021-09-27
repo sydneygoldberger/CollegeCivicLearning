@@ -47,10 +47,8 @@ var macroInitiativesMobile = document.getElementById('macroInitiatives-mobile');
 
 	aboutButton.onmouseenter = changeBottomTextBacktoAbout;
 	bottombar.onmouseleave = hideSubMenu;
-
 	takeActionbutton.onmouseenter = changeBottomTextTakeActionShow;
-
-	bottombar.onmouseleave = hideSubMenu;	
+		
 
 	function changeBottomTextTakeActionShow() {
 		bottombar.style.visibility = "inherit";
@@ -68,9 +66,8 @@ if ( document.URL.includes("about") ) {
 	aboutButton.style.fontWeight = "400";
 	aboutMobile.style.color = "#c63c3c";
 	aboutMobile.style.borderBottom = "solid 4px #c63c3c";
-
-	aboutButton.onmouseenter = showSubMenu;
-	bottombar.onmouseleave = hideSubMenu;	
+	bottombar.onmouseleave = showSubMenu;
+	bottombar.onmouseenter = showSubMenu;
 
 	takeActionbutton.onmouseenter = changeBottomTextTakeActionShow;
 	takeActionbutton.onmouseleave = changeBottomTextBacktoAbout;
@@ -86,17 +83,17 @@ if ( document.URL.includes("about") ) {
 };
 
 if ( document.URL.includes("takeaction") ) {
-    bottombar.style.visibility = "inherit";	
+    bottombar.style.display = "inherit";	
 	takeActionbutton.style.color = "#c63c3c";
 	takeActionbutton.style.fontWeight = "400";
 	takeActionMobile.style.color = "#c63c3c";
 	takeActionMobile.style.borderBottom = "solid 4px #c63c3c";
-
+	bottombar.onmouseleave = showSubMenu;
+	bottombar.onmouseenter = showSubMenu;
 
 	aboutButton.onmouseenter = changeBottomTextBacktoAbout;
 	aboutButton.onmouseleave = changeBottomTextTakeActionShow;
 
-	bottombar.style.visibility = "inherit";	
 	bottombar.innerHTML = "<div class='subnav-content'><a href='cldebydesign.html'>CLDE BY DESIGN</a><a href='perspectives&issues.html'>PERSPECTIVES & ISSUES</a><a href='planning.html'>PLANNING</a><a href='campusprofiles.html'>CAMPUS PROFILES</a><a href='macroinitiatives.html'>MACRO INITIATIVES</a></div>"
 
     function changeBottomTextTakeActionShow() {
