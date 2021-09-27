@@ -78,7 +78,7 @@ if ( document.URL.includes("about") ) {
 		bottombar.innerHTML = "<div class='subnav-content'><a href='cldebydesign.html'>CLDE BY DESIGN</a><a href='perspectives&issues.html'>PERSPECTIVES & ISSUES</a><a href='planning.html'>PLANNING</a><a href='campusprofiles.html'>CAMPUS PROFILES</a><a href='macroinitiatives.html'>MACRO INITIATIVES</a></div>"
 	}
 	function changeBottomTextBacktoAbout() {
-		bottombar.innerHTML = "<div class='subnav-content'><a href='sharedcommitment.html'>SHARED COMMITMENT STATEMENT</a><a href='leadership.html'>LEADERSHIP</a><a href='goals&priorities.html'>GOALS & PRIORITIES</a><a href='advisors.html'>ADVISORS</a></div>"
+		bottombar.innerHTML = "<div class='subnav-content'><a href='leadership.html'>LEADERSHIP</a><a href='goals&priorities.html'>GOALS & PRIORITIES</a><a href='advisors.html'>ADVISORS</a></div>"
 	}
 };
 
