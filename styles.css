@@ -281,7 +281,7 @@ a:hover {
   display: block;
   z-index: 0;
   padding-bottom: 6vw;
-  padding-top: 16vw;
+  padding-top: calc(200px + 6vw);
   overflow-y: hidden;
   overflow-x: hidden;
   font-size: calc(12px + 1vw);
@@ -1229,8 +1229,8 @@ textarea {
     display: block;
     z-index: 0;
     padding-bottom: 6vw;
-    padding-top: 13vw;
     overflow-y: hidden;
+    padding-top: calc(100px + 2vw);
   }
 
   #pageContent3 {
@@ -1332,6 +1332,14 @@ textarea {
     font-size: calc(12px + 2vw);
     position: relative;
     margin: 0 auto;
+  }
+
+  #home {
+    padding-left: 1vw;
+  }
+
+  #descriptionHeader {
+    padding-left: 1vw;
   }
 
   #pageContent {
@@ -1618,7 +1626,7 @@ textarea {
     display: block;
     z-index: 0;
     padding-bottom: 6vw;
-    padding-top: 20vw;
+    padding-top: calc(70px + 2vw);
     overflow-y: hidden;
   }
 
@@ -1669,7 +1677,7 @@ textarea {
 
   #title {
     visibility: visible;
-    padding-left: 4vw;
+    padding-left: 3vw;
     padding-top: 3px;
     padding-bottom: 3px;
     font-family: "Roboto", sans-serif;
@@ -1719,7 +1727,10 @@ textarea {
     font-size: calc(12px + 2vw);
     position: relative;
     margin: 0 auto;
-    padding-left: 0vw;
+  }
+
+  #home {
+    padding-left: 1.6vw;
   }
 
   .content .link-boxes .box li a {
@@ -1737,7 +1748,7 @@ textarea {
 
   #descriptionHeader {
     font-size: calc(12px+ 0vw);
-    left: 0vw;
+    padding-left: 2vw;
     position: relative;
   }
   #floatRight {
@@ -2009,13 +2020,12 @@ textarea {
     display: block;
     z-index: 0;
     padding-bottom: 6vw;
-    padding-top: 30vw;
+    padding-top: calc(70px + 2vw);
     overflow-y: hidden;
   }
 
   #descriptionHeader {
     font-size: calc(11px);
-    padding: 0.6vw;
   }
 
   #pageContent3 {
