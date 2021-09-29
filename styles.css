@@ -293,7 +293,7 @@ a:hover {
   display: block;
   z-index: 0;
   padding-bottom: 6vw;
-  padding-top: 16vw;
+  padding-top: calc(200px + 6vw);
   overflow-y: hidden;
   overflow-x: hidden;
 }
@@ -302,7 +302,7 @@ a:hover {
   width: 100vw;
   height: 70vh;
   position: relative;
-  padding-top: 13vw;
+  padding-top: calc(200px + 6vw);
   bottom: 4vw;
   z-index: 0;
 }
@@ -310,6 +310,8 @@ a:hover {
 #textBox {
   padding-left: 4vw;
   padding-top: 0vw;
+  top: -2vw;
+  padding-bottom: 2vw;
   width: 60vw;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -492,6 +494,7 @@ a:hover {
   position: relative;
   z-index: 1;
   font-size: calc(12px + 1vw);
+  text-transform: uppercase;
 }
 
 #bottomBorder {
@@ -1088,22 +1091,13 @@ textarea {
 
   #textBox {
     padding-left: 5vw;
-    padding-top: 6vw;
+    padding-top: 3vw;
     width: 90vw;
     font-size: calc(12px + 1vw);
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     color: black;
-  }
-
-  #textBox {
-    padding-left: 5vw;
-    padding-top: 6vw;
-    width: 90vw;
-    font-size: calc(12px + 1vw);
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: black;
+    top: 0vw;
   }
 
   #textBox-main {
@@ -1240,7 +1234,7 @@ textarea {
     display: block;
     z-index: 0;
     padding-bottom: 6vw;
-    padding-top: 20vw;
+    padding-top: calc(100px + 2vw);
     overflow-y: hidden;
   }
 
@@ -1324,7 +1318,7 @@ textarea {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
-    margin-top: 10vw;
+    margin-top: 12vw;
   }
 }
 
@@ -1544,7 +1538,7 @@ textarea {
 
   #textBox {
     padding-left: 5vw;
-    padding-top: 8vw;
+    padding-top: 4vw;
     width: 90vw;
     font-size: calc(12px + 1vw);
     font-family: "Roboto", sans-serif;
@@ -1638,7 +1632,7 @@ textarea {
     display: block;
     z-index: 0;
     padding-bottom: 6vw;
-    padding-top: 20vw;
+    padding-top: calc(70px + 2vw);
     overflow-y: hidden;
   }
 
@@ -1716,7 +1710,7 @@ textarea {
   #headerbox9,
   #headerbox10,
   #headerbox11 {
-    margin-top: 12vw;
+    margin-top: 14vw;
     font-size: calc(12px + 1.8vw);
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -1954,7 +1948,7 @@ textarea {
 
   #textBox {
     padding-left: 5vw;
-    padding-top: 8vw;
+    padding-top: 9vw;
     width: 90vw;
     font-size: calc(12px + 1.5vw);
     font-family: "Roboto", sans-serif;
@@ -2036,7 +2030,7 @@ textarea {
     display: block;
     z-index: 0;
     padding-bottom: 6vw;
-    padding-top: 30vw;
+    padding-top: calc(70px + 2vw);
     overflow-y: hidden;
   }
 

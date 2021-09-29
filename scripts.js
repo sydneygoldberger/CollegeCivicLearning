@@ -481,3 +481,9 @@ window.addEventListener("DOMContentLoaded", function () {
 	xhr.send(data);
   }
   
+
+  if (screen.width <= 750) {
+	document.getElementById("headerbox3").innerHTML = "<div>Shared Commitment Signatories <br> and Partners</div>";
+}
+
+
