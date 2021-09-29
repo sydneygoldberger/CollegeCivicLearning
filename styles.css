@@ -1563,7 +1563,7 @@ textarea {
   }
 
   #picBox {
-    margin-top: 8vw;
+    margin-top: 10vw;
     margin-bottom: 10vw;
     margin-right: 4vw;
     margin-left: 4vw;
@@ -1576,7 +1576,6 @@ textarea {
     height: 60vw;
     object-fit: cover;
     position: relative;
-    background-color: #c63c3c;
   }
 
   #pageContent {
@@ -1979,7 +1978,7 @@ textarea {
 
   #picBox {
     margin-top: 12vw;
-    margin-bottom: 0vw;
+    margin-bottom: 2vw;
     margin-right: 4vw;
     margin-left: 4vw;
     width: 92vw;
