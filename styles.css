@@ -918,7 +918,7 @@ textarea {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    line-height: 40px;
+    line-height: 35px;
   }
 
   .main-nav li {
@@ -951,7 +951,7 @@ textarea {
     font-weight: 300;
     font-size: 31px;
     text-align: right;
-    font-size: calc(12px +1.3vw);
+    font-size: calc(12px + 1vw);
   }
 
   #smallerList a {
