@@ -1826,7 +1826,8 @@ textarea {
     opacity: 0;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: calc(12px + 2vw);
+    font-size: calc(12px + 1.3vw);
+    line-height: (12px + 1.3vw);
     text-align: right;
   }
 
