@@ -648,6 +648,7 @@ footer .content .link-boxes {
 .content .link-boxes .box li a {
   color: #fff;
   font-size: calc(12px + 0.5vw);
+  line-height: calc(12px + 0.5vw);
   text-decoration: none;
   opacity: 0.8;
   transition: all 0.4s ease;
