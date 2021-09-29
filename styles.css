@@ -918,7 +918,7 @@ textarea {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    line-height: 30px;
+    line-height: 40px;
   }
 
   .main-nav li {
@@ -951,6 +951,7 @@ textarea {
     font-weight: 300;
     font-size: 31px;
     text-align: right;
+    font-size: calc(12px +1.3vw);
   }
 
   #smallerList a {
@@ -1394,7 +1395,7 @@ textarea {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    line-height: 20px;
+    line-height: 40px;
   }
 
   .main-nav li {
@@ -1422,6 +1423,7 @@ textarea {
     font-weight: 300;
     font-size: 24px;
     text-align: right;
+    font-size: calc(12px + 1.3vw);
   }
 
   .open-main-nav {
@@ -1800,7 +1802,7 @@ textarea {
     width: 100%;
     padding: 0px;
     margin: 0px;
-    line-height: 20px;
+    line-height: 30px;
   }
 
   .main-nav li {
@@ -1827,7 +1829,6 @@ textarea {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: calc(12px + 1.3vw);
-    line-height: (12px + 1.3vw);
     text-align: right;
   }
 
