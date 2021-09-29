@@ -347,7 +347,7 @@ a:hover {
   font-weight: 300;
   position: relative;
   z-index: 1;
-  font-size: calc(12px + 0.8vw);
+  font-size: calc(12px + 0.6vw);
   height: fit-content;
 }
 
@@ -363,7 +363,7 @@ a:hover {
 
 #homepageGoalsText {
   color: black;
-  line-height: 0.8vw;
+  line-height: 0.6vw;
   font-weight: 400;
 }
 
@@ -431,12 +431,12 @@ a:hover {
 }
 #spotlightHeader {
   color: #c63c3c;
-  font-size: calc(12px + 0.9vw);
+  font-size: calc(12px + 0.6vw);
   font-weight: 500;
 }
 
 #dateandsource {
-  font-size: calc(12px + 0.7vw);
+  font-size: calc(12px + 0.6vw);
 }
 
 #spotlightBox {
@@ -447,7 +447,7 @@ a:hover {
   padding-top: 6vw;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: calc(12px + 0.7vw);
+  font-size: calc(12px + 0.6vw);
   display: grid;
   grid-template-columns: 2% 55% 60%;
   grid-template-rows: 100%;
