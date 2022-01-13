@@ -411,6 +411,32 @@ if ( document.URL.includes("macroinitiatives") ) {
 	}
 };
 
+if ( document.URL.includes("organizations") ) {
+	bottombar.style.visibility = "inherit";	
+
+	takeActionbutton.style.color = "#c63c3c";
+	takeActionbutton.style.fontWeight = "400";
+
+	takeActionMobile.style.color = "#c63c3c";
+	takeActionMobile.style.borderBottom = "solid 4px #c63c3c";
+	macroInitiativesMobile.style.color = "#5b8cbd";
+	macroInitiativesMobile.style.fontWeight = "400";
+
+
+	aboutButton.onmouseenter = changeBottomTextBacktoAbout;
+	aboutButton.onmouseleave = changeBottomTextTakeActionShow;
+
+	bottombar.style.visibility = "inherit";	
+	bottombar.innerHTML = "<div class='subnav-content'><a href='cldebydesign.html'>CLDE BY DESIGN</a><a href='perspectives&issues.html'>PERSPECTIVES & ISSUES</a><a href='planning.html'>PLANNING</a><a href='campusprofiles.html'>CAMPUS PROFILES</a><a href='macroinitiatives.html' style='color: #c63c3c; font-weight: 500;'>MACRO INITIATIVES</a></div>"
+
+    function changeBottomTextTakeActionShow() {
+		bottombar.innerHTML = "<div class='subnav-content'><a href='cldebydesign.html'>CLDE BY DESIGN</a><a href='perspectives&issues.html'>PERSPECTIVES & ISSUES</a><a href='planning.html'>PLANNING</a><a href='campusprofiles.html'>CAMPUS PROFILES</a><a href='macroinitiatives.html' style='color: #c63c3c; font-weight: 500;'>MACRO INITIATIVES</a></div>"
+	}
+	function changeBottomTextBacktoAbout() {
+		bottombar.innerHTML = "<div class='subnav-content'><a href='leadership.html'>LEADERSHIP</a><a href='goals&priorities.html'>GOALS & PRIORITIES</a><a href='advisors.html'>ADVISORS</a></div>"
+	}
+};
+
 // BUGER MENU
 
 burger.addEventListener('click', function(e){
