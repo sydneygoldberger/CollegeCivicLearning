@@ -261,6 +261,11 @@ a:hover {
   font-weight: 500;
   grid-template-areas: ". . .";
   text-decoration: none;
+  z-index: -1;
+}
+
+#spotlightInfoBox {
+  z-index: 0;
 }
 
 #dateandsource {
